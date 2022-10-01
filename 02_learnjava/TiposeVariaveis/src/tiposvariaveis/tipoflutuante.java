@@ -1,6 +1,6 @@
 package tiposvariaveis;
 
-public class tipoflutuante {
+public class TipoFlutuante {
 
 	public static void main(String[] args) {
 		

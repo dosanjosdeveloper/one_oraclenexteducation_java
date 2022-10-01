@@ -1,6 +1,6 @@
 package tiposvariaveis;
 
-public class tipointeiro {
+public class Tipointeiro {
 	public static void main(String[] args) {
 		System.out.println("Trabalhando com tipo Inteiro: int");
 		int idade;

@@ -1,6 +1,6 @@
 package tiposvariaveis;
 
-public class tipoconvertendovariaveis {
+public class TipoConvertendoVariaveis {
 
 	public static void main(String[] args) {
 		double salario = 1270.50;
@@ -13,6 +13,9 @@ public class tipoconvertendovariaveis {
 		
 		float pontoFlutuante = 3.14f;
 		System.out.println(pontoFlutuante);
+		System.out.println(numeroGrande);
+		System.out.println(valorPequeno);
+		System.out.println(b);
 	}
 
 }
