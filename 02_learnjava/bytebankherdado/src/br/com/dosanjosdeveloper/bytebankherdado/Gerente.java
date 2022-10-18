@@ -1,7 +1,12 @@
 package br.com.dosanjosdeveloper.bytebankherdado;
 
-public class Gerente extends Funcionario {
+public class Gerente extends FuncionarioAutenticavel {
+	public double getBonificacao() {
+		System.out.println("Chamando o Método de Bonificação do Gerente!!!");
+		return super.getSalario();
+	}
 	
+	/*
 	private int senha;
 
 	public void setSenha(int senha) {
@@ -15,8 +20,7 @@ public class Gerente extends Funcionario {
 		return false;
 	}
 	
-	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario();
-	}
+	*/
+	
 	
 }
